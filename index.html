@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoadMap-Day3</title>
+    <style>
+        h1{
+            color: blueviolet;
+        }
+        h2{
+            color: goldenrod;
+        }
+        h3{
+            color: darkred;
+        }
+    
+</style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>GUVI GEEKS</h2>
+    <h3>ROAD MAP DAY 3 CLASS & TASK</h3>
+    <br>
+    <P>Please do right click and select console</P>
+    <br> <br>
+    <p><mark><b>how to compare two JSON have the same properties without order?</b></mark>
+        <br>
+        <br>
+
+        const Obj1 = { <br>
+            name: "Person 1", <br>
+            age: 5, <br>
+        } <br>
+        const Obj2 = { <br>
+            age: 5, <br>
+            name: "Person 1", <br>
+            
+        }; <br>
+        <br>
+        
+        console.log(JSON.stringify(Obj1) === JSON.stringify(Obj2));<br>
+        console.log(Obj1 === Obj2); <br>
+    </p>
+    <hr/>
+    <p>And the result is <mark>false</mark>, because triple equal chaeck object value and object type and order</p>
+    <script src="window.js"></script>
+    
+</body>
+</html>
